@@ -1,0 +1,58 @@
+:root {
+    font-family: 'Alexandria';
+}
+
+#app {
+    box-shadow: 3px 4px 10px rgb(129, 129, 129);
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.row div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(65, 65, 65);
+    border: 1px solid gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: rgb(206, 206, 206);
+}
+
+.row {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 2px;
+}
+
+#app .row:last-child {
+    margin-bottom: 0px;
+}
+
+.scoreboard {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+span {
+    color: rgb(100, 66, 109);
+}
+
+
+.player1, .player2 {
+    cursor: pointer;
+}
+
+.off {
+    display: none;
+}
